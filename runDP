@@ -1,0 +1,1 @@
+mpirun -n 3 python mpi_driver.py exp=cxic0415:run=98 DscCsPad -t 6 -n 10
