@@ -26,7 +26,7 @@ parser.py -- script to parse the indexed stream file to get the predicted x and 
 bsub -q psnehq -n 16 -o /reg/d/psdm/cxi/cxitut13/scratch/utsab06/%J.out \
 mpirun python mpi_driver.py exp=cxic0415:run=98 DscCsPad
 
-**running mpimaster.py and mpiclient.py**
+**running mpimaster.py and mpiclient.py**\
 bsub -q psnehq -n 16 -o /reg/d/psdm/cxi/cxitut13/scratch/utsab06/%J.out \
 mpirun python mpi_driver.py exp=cxic0415:run=98 DscCsPad
 
