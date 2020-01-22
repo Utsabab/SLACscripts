@@ -1,4 +1,4 @@
-# SLACscripts
+SLACscripts
 Scripts written during the course of summer of internship at SLAC
 
 This README file guides you through the process of running all the scripts available in this repository. 
