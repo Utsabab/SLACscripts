@@ -20,7 +20,7 @@ parser.py -- script to parse the indexed stream file to get the predicted x and 
 
 ------------------------------------------------------------------------------------------------------------
 
-###### **Remember to import right client and master script before running mpi_driver.py each time**
+#### Remember to import right client and master script before running mpi_driver.py each time
 
 **running imaster.py and iclient.py**\
 bsub -q psnehq -n 16 -o /reg/d/psdm/cxi/cxitut13/scratch/utsab06/%J.out \
