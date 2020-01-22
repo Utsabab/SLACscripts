@@ -12,7 +12,7 @@ mpi_driver.py -- runs the master and client script
 imaster.py -- Initial master side script for MPI parallel computing\
 iclient.py -- Initial client side script for MPI parallel computing
 
-**running imaster.py and iclient.py**
+**running imaster.py and iclient.py**\
 bsub -q psnehq -n 16 -o /reg/d/psdm/cxi/cxitut13/scratch/utsab06/%J.out \
 mpirun python mpi_driver.py exp=cxic0415:run=98 DscCsPad
 
