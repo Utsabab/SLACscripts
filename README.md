@@ -3,12 +3,14 @@ Programs written during the course of summer of internship at SLAC.
 This README file guides you through the process of running all the programs available in this repository. 
 The programs contain comments on it to better understand the steps.
 
-
 ------------------------------------------------------------------------------------------------------------
-mpi_driver.py -- runs the master and client script
+## File description
 
+mpi_driver.py -- runs the master and client script\
 imaster.py -- Initial master side script for MPI parallel computing\
-iclient.py -- Initial client side script for MPI parallel computing
+iclient.py -- Initial client side script for MPI parallel computing\
+mpimaster.py -- master side script for noise addition in the image files\  
+mpiclient.py -- client side script for noise addition in the image files\
 
 **running imaster.py and iclient.py**\
 bsub -q psnehq -n 16 -o /reg/d/psdm/cxi/cxitut13/scratch/utsab06/%J.out \
@@ -17,8 +19,7 @@ mpirun python mpi_driver.py exp=cxic0415:run=98 DscCsPad
 Remember to import right client and master script before running mpi_driver.py each time
 ------------------------------------------------------------------------------------------------------------
 
-mpimaster.py -- master side script for noise addition in the image files  
-mpiclient.py -- client side script for noise addition in the image files
+
 
 **running mpimaster.py and mpiclient.py**\ 
 ======================================
