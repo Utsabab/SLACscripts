@@ -34,7 +34,7 @@ mpirun python mpi_driver.py exp=cxic0415:run=98 DscCsPad
 bsub -q psnehq -n 16 -o /reg/d/psdm/cxi/cxitut13/scratch/utsab06/%J.out \
 mpirun python mpi_driver.py exp=cxic0415:run=98 DscCsPad -t 1
 
-./runDP runs the script locally 
+./runDP runs the script locally \
 ./runBatchDP runs it in the servers 
 
 **running fpmaster.py and fpclient.py**\ 
