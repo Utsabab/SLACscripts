@@ -18,24 +18,24 @@ fpclient.py -- client side script for finding the maxima image in a run\
 badpixel.py -- script to cover the bad pixels on detector pad to reduce unwanted peaks in an image\
 parser.py -- script to parse the indexed stream file to get the predicted x and y coordinates
 
+------------------------------------------------------------------------------------------------------------
+
+###### Remember to import right client and master script before running mpi_driver.py each time
 
 **running imaster.py and iclient.py**\
 bsub -q psnehq -n 16 -o /reg/d/psdm/cxi/cxitut13/scratch/utsab06/%J.out \
 mpirun python mpi_driver.py exp=cxic0415:run=98 DscCsPad
 
-Remember to import right client and master script before running mpi_driver.py each time
 
-------------------------------------------------------------------------------------------------------------
 
 
 
 **running mpimaster.py and mpiclient.py**\ 
-======================================
+------------------------------------------------------------------------------------------------------------
 bsub -q psnehq -n 16 -o /reg/d/psdm/cxi/cxitut13/scratch/utsab06/%J.out \
 mpirun python mpi_driver.py exp=cxic0415:run=98 DscCsPad
 
-Remember to import right client and master script before running mpi_driver.py each time
-------------------------------------------------------------------------------------------------------------
+
 
 
 
@@ -55,8 +55,7 @@ $running fpmaster.py and fpclient.py
 bsub -q psnehq -n 16 -o /reg/d/psdm/cxi/cxitut13/scratch/utsab06/%J.out \
 mpirun python mpi_driver.py exp=cxic0415:run=98 DscCsPad
 
-Remember to import right client and master script before running mpi_driver.py each time
-------------------------------------------------------------------------------------------------------------
+
 
 
 $running badpixel.py 
@@ -71,5 +70,8 @@ Remember to change the source file inside the code itself before running the scr
 $running parser.py  
 ==================
 ./runparser
+------------------------------------------------------------------------------------------------------------
+
+Remember to import right client and master script before running mpi_driver.py each time
 ------------------------------------------------------------------------------------------------------------
 
