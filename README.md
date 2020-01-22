@@ -47,7 +47,7 @@ mpirun python mpi_driver.py exp=cxic0415:run=98 DscCsPad
 **running parser.py**\
 ./runparser
 
-Remember to change the source file inside the code itself before running the script 
+#### Remember to change the source file inside the code itself before running the script 
 
 ------------------------------------------------------------------------------------------------------------
 
