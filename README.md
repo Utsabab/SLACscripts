@@ -26,52 +26,28 @@ parser.py -- script to parse the indexed stream file to get the predicted x and 
 bsub -q psnehq -n 16 -o /reg/d/psdm/cxi/cxitut13/scratch/utsab06/%J.out \
 mpirun python mpi_driver.py exp=cxic0415:run=98 DscCsPad
 
-
-
-
-
 **running mpimaster.py and mpiclient.py**\ 
-------------------------------------------------------------------------------------------------------------
 bsub -q psnehq -n 16 -o /reg/d/psdm/cxi/cxitut13/scratch/utsab06/%J.out \
 mpirun python mpi_driver.py exp=cxic0415:run=98 DscCsPad
 
-
-
-
-
-$running dpmaster.py and dpclient.py 
-====================================
+**running dpmaster.py and dpclient.py**\ 
 bsub -q psnehq -n 16 -o /reg/d/psdm/cxi/cxitut13/scratch/utsab06/%J.out \
 mpirun python mpi_driver.py exp=cxic0415:run=98 DscCsPad -t 1
 
 ./runDP runs the script locally 
 ./runBatchDP runs it in the servers 
-------------------------------------------------------------------------------------------------------------
 
-
-
-$running fpmaster.py and fpclient.py 
-====================================
+**running fpmaster.py and fpclient.py**\ 
 bsub -q psnehq -n 16 -o /reg/d/psdm/cxi/cxitut13/scratch/utsab06/%J.out \
 mpirun python mpi_driver.py exp=cxic0415:run=98 DscCsPad
 
-
-
-
-$running badpixel.py 
-====================
+**running badpixel.py**\ 
 ./runbadpixel
-------------------------------------------------------------------------------------------------------------
 
-
+**running parser.py**\  
+./runparser
 
 Remember to change the source file inside the code itself before running the script 
 
-$running parser.py  
-==================
-./runparser
-------------------------------------------------------------------------------------------------------------
-
-Remember to import right client and master script before running mpi_driver.py each time
 ------------------------------------------------------------------------------------------------------------
 
