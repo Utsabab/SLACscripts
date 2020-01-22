@@ -1,9 +1,7 @@
 SLACscripts
-Scripts written during the course of summer of internship at SLAC
-
-This README file guides you through the process of running all the scripts available in this repository. 
-
-Also the scripts contain comments on it to better understand the steps.
+Scripts written during the course of summer of internship at SLAC.
+This README file guides you through the process of running all th scripts available in this repository. 
+The scripts contain comments on it to better understand the steps.
 
 
 ------------------------------------------------------------------------------------------------------------
