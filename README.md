@@ -9,7 +9,7 @@ The programs contain comments on it to better understand the steps.
 mpi_driver.py -- runs the master and client script\
 imaster.py -- Initial master side script for MPI parallel computing\
 iclient.py -- Initial client side script for MPI parallel computing\
-mpimaster.py -- master side script for noise addition in the image files\  
+mpimaster.py -- master side script for noise addition in the image files\
 mpiclient.py -- client side script for noise addition in the image files\
 dpmaster.py -- master side script for converting cxi image files into dense image h5 files\
 dpclient.py -- client side script for converting cxi image files into dense image h5 files\
